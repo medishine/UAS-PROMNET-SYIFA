@@ -1,0 +1,70 @@
+:root{
+  --pink:#FCE7F3;
+  --mint:#A7F3D0;
+  --blue:#BFDBFE;
+  --lav:#DDD6FE;
+  --cream:#FFF7ED;
+  --dark:#111827;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg,var(--cream),var(--pink));
+}
+
+.navbar{
+  background: rgba(255,255,255,0.7)!important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.btn-pastel{
+  background: var(--mint);
+  border: none;
+  color: var(--dark);
+  font-weight: 700;
+  border-radius: 18px;
+  padding: 10px 18px;
+}
+
+.btn-pastel:hover{ background: #6EE7B7; }
+
+.card-soft{
+  border: none;
+  border-radius: 22px;
+  box-shadow: 0 15px 40px rgba(17,24,39,0.08);
+  overflow: hidden;
+}
+
+.badge-soft{
+  padding:8px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  background: var(--lav);
+  color: var(--dark);
+  display:inline-block;
+}
+
+.hero{
+  border-radius: 30px;
+  padding: 55px;
+  background: linear-gradient(90deg,var(--pink),var(--blue));
+  box-shadow: 0 20px 50px rgba(17,24,39,0.1);
+}
+
+.soft-input{
+  border-radius: 16px;
+  padding: 12px 14px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.soft-input:focus{
+  outline:none;
+  box-shadow: 0 0 0 4px rgba(167,243,208,0.4);
+}
+
+footer{
+  color:#111827;
+  opacity:0.8;
+}
